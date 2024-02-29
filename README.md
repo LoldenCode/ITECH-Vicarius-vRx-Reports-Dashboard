@@ -44,10 +44,19 @@ Create docker secrets to stor your dashboard_id, api_key, postgres_user, postgre
 sudo chmod +x initDocker.sh
 sudo ./initDocker.sh
 ```
+Copy your api key from the vRx dashboard 
+- Login into your dashboard
+- go to Settings - Integrations - Installed Integrations - API
+- Click on the API and copy the API Key
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/caa6bd2f-a8af-406e-97ba-7b20c648e66d)
+
+
 Your dashboard_ID is the first portion of your dashboard url 
 - https://example.vicarius.cloud, Dashboard_id is example
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/1f1ddc2f-3ae3-4816-9c29-d579506eb58f)
+
   
-Copy your api key from the vRx dashboard
+
 
 
 ### Bulid and push Docker images to Registry 
