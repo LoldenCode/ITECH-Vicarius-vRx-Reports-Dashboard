@@ -46,6 +46,7 @@ sudo ./initDocker.sh
 ```
 Your dashboard_ID is the first portion of your dashboard url 
 - https://example.vicarius.cloud, Dashboard_id is example
+  
 Copy your api key from the vRx dashboard
 
 
