@@ -13,7 +13,7 @@ https://customer-portal.vicarius.io/getting-started-with-vrx-rest-api
 Example: organization in https://organization.vicarius.cloud/
 
 # Installation Method 
-## URL Download
+## Method 1: URL Download
 
 ### Download and unzip the file
 Download the package to the asset that will host the docker containers
@@ -76,7 +76,7 @@ sudo ./redeployDocker.sh
 
 
 
-## Github Cloning the Repository
+## Method 2: Github Cloning the Repository
 
 Clone the repository to your local machine:
 
