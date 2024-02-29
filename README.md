@@ -44,6 +44,10 @@ Create docker secrets to stor your dashboard_id, api_key, postgres_user, postgre
 sudo chmod +x initDocker.sh
 sudo ./initDocker.sh
 ```
+Your dashboard_ID is the first portion of your dashboard url 
+- https://example.vicarius.cloud, Dashboard_id is example
+Copy your api key from the vRx dashboard
+
 
 ### Bulid and push Docker images to Registry 
 Deploy the Docker stack using the buildPushDocker.sh script:
