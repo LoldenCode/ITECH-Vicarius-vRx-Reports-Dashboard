@@ -24,7 +24,7 @@ Install unzip to unzip the file
 
 ```bash
 mkdir vicarius-vrx-reports-dashboard
-dc vicarius-vrx-reports-dashboard
+cd vicarius-vrx-reports-dashboard
 wget https://campaign.vicarius.io/hubfs/vrxReports/vicarius-vrx-reports.tar.gz
 tar -xvzf vicarius-vrx-reports.tar.gz
 ```
