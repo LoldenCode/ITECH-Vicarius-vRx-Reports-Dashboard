@@ -120,6 +120,41 @@ chmod +x redeployDocker.sh
 
 *Ensure you are in the directory containing the `redeployDocker.sh` script.*
 
+# Confrim the Deployment
+
+Run docker ps to confirm the containers are up.
+```bash
+sudo docker ps
+```
+![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/5c34632c-3d4a-4017-bb1b-ee199ac0b6bc)
+
+
+#Optional Tools
+
+## Apache SuperSet
+Coming soon...
+
+## Metabase
+https://www.metabase.com/
+https://www.metabase.com/start/oss/
+https://www.metabase.com/license/
+Metabase is an open-source business intelligence platform. You can use Metabase to ask questions about your data, or embed Metabase in your app to let your customers explore their data on their own.
+
+To install Metabase run the metabaseInstall.sh script.
+```bash
+sudo chmod +x metabaseInstall.sh
+sudo ./metabaseInstall.sh
+ ```
+## Portainer CE
+https://docs.portainer.io/start/install-ce
+Portainer Community Edition (CE) is our foundation. With over half a million regular users, CE is a powerful, open source toolset that allows you to easily build and manage containers in Docker, Docker Swarm, Kubernetes and Azure ACI.
+
+To install Portainer run the portainerInstall.sh script.
+```bash
+sudo chmod +x portainerInstall.sh
+sudo ./portainerInstall.sh
+ ```
+
 ---
 
 **Additional Notes:**
