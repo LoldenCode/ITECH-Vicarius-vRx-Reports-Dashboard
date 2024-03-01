@@ -18,34 +18,9 @@ Navigate to = http://your_host:4000
 ** Password: <password created during the initDocker script>
 * Complete the setup
 
+![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/44b1455c-ad6f-4b6b-9041-1c094f0cbd71)
 
 
 
 
 
-# VicariusVrxReports Setup Instructions
-
-## Prerequisites 
-
-### Review the following KB article to create a new API Key from your Vrx Dashboard
-https://customer-portal.vicarius.io/getting-started-with-vrx-rest-api
-
-### Your dashboard_id corresponds to the url you use to login to your dashboard
-Example: organization in https://organization.vicarius.cloud/
-
-# Installation Method 
-## Method 1: URL Download
-
-### Download and unzip the file
-Download the package to the asset that will host the docker containers
-vRxReportsDashboard.tar (https://campaign.vicarius.io/hubfs/vrxReports/vicarius-vrx-reports.tar.gz)
-
-
-Install unzip to unzip the file
-
-```bash
-mkdir vicarius-vrx-reports-dashboard
-cd vicarius-vrx-reports-dashboard
-wget https://campaign.vicarius.io/hubfs/vrxReports/vicarius-vrx-reports.tar.gz
-tar -xvzf vicarius-vrx-reports.tar.gz
-```
