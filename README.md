@@ -95,7 +95,7 @@ chmod +x installDocker.sh
 ```
 
 
-## Initialize Docker Container Configuration 
+# Initialize Docker Container Configuration 
 
 ### Review the following KB article to create a new API Key from your Vrx Dashboard
 https://customer-portal.vicarius.io/getting-started-with-vrx-rest-api
