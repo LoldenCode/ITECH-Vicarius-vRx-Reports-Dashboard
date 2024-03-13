@@ -17,10 +17,7 @@ Example: organization in https://organization.vicarius.cloud/
 
 ### Download and unzip the file
 Download the package to the asset that will host the docker containers
-vRxReportsDashboard.tar (https://campaign.vicarius.io/hubfs/vrxReports/vicarius-vrx-reports.tar.gz)
-
-
-Install unzip to unzip the file
+vRxReportsDashboard.tar (https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/releases/download/v1.1/vicarius-vrx-reports.tar.gz)
 
 Newest Version
 ```bash
