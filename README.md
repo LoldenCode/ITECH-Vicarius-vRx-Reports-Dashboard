@@ -22,6 +22,16 @@ vRxReportsDashboard.tar (https://campaign.vicarius.io/hubfs/vrxReports/vicarius-
 
 Install unzip to unzip the file
 
+Newest Version
+```bash
+mkdir vicarius-vrx-reports-dashboard
+cd vicarius-vrx-reports-dashboard
+wget https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/releases/download/v1.1/vicarius-vrx-reports.tar.gz
+tar -xvzf vicarius-vrx-reports.tar.gz
+```
+
+
+Stable Release
 ```bash
 mkdir vicarius-vrx-reports-dashboard
 cd vicarius-vrx-reports-dashboard
