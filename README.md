@@ -88,7 +88,7 @@ sudo docker ps
 ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/5c34632c-3d4a-4017-bb1b-ee199ac0b6bc)
 
 
-#Optional Tools
+# Optional Tools
 
 ## Apache SuperSet
 Coming soon...
