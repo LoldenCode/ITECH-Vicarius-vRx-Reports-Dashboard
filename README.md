@@ -173,6 +173,25 @@ To install Metabase run the metabaseInstall.sh script.
 sudo chmod +x optional-metabaseInstall.sh
 sudo ./optional-metabaseInstall.sh
  ```
+### Check that metabase is running
+
+Metabase Docker Service 
+```bash
+sudo docker service ls
+ ```
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/deea46ec-f478-4935-8278-55a98b3952d0)
+
+Metabase Docker Container
+```bash
+sudo docker ps
+ ```
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/4f523aa8-828c-44e9-8c4e-db58f50f8eaf)
+
+##Configure Metabase
+Navigate to Metabase installation in a web browser 
+- > http://your_host:4000
+
+
 ## Portainer CE
 https://docs.portainer.io/start/install-ce
 Portainer Community Edition (CE) is our foundation. With over half a million regular users, CE is a powerful, open source toolset that allows you to easily build and manage containers in Docker, Docker Swarm, Kubernetes and Azure ACI.
