@@ -62,7 +62,12 @@ Your dashboard_ID is the first portion of your dashboard url
 - https://example.vicarius.cloud, Dashboard_id is example
 - ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/1f1ddc2f-3ae3-4816-9c29-d579506eb58f)
 
-  
+Create the password for the local Database. This user will be used to access the database by data visualization tools. Please keep the username and password in a safe place
+
+Optional Tools:
+Specify Which Optional Tools you would like to be installed. 
+- Metabase: Data Visualization with Template
+
 
 
 
