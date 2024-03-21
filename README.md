@@ -168,12 +168,18 @@ https://www.metabase.com/start/oss/
 https://www.metabase.com/license/
 Metabase is an open-source business intelligence platform. You can use Metabase to ask questions about your data, or embed Metabase in your app to let your customers explore their data on their own.
 
+* It is recommended to let the app complete the initialization and first run before launching metabase. 
+* The initial run can take several hours depending on the size of your data.
+* I plan to add a progress bar for first run
+
+
+
 To install Metabase run the metabaseInstall.sh script.
 ```bash
 sudo chmod +x optional-metabaseInstall.sh
 sudo ./optional-metabaseInstall.sh
  ```
-### Check that metabase is running
+### Check that Metabase is running
 
 Metabase Docker Service 
 ```bash
@@ -191,6 +197,27 @@ sudo docker ps
 Navigate to Metabase installation in a web browser 
 - > http://your_host:4000
 
+The Metabase installation installs a template by default. When you navigate to the your installation you will receive a login page. Please log in using the default credentials 
+* The Login prompt can take some time to appear depending how much data needs to be pulled into the local database from vRx.
+
+
+- Default Username: vrxadmin@vrxadmin.com
+- Default Password: Vicarius123!@#
+
+Once Logged in go to settings account settings and change the default password 
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/6a7e1c86-cb83-4f70-9d0a-27ae3c94fab9)
+
+
+After changing the default credentials, Change the database settings to reflect the database user and password created earlier.
+
+- Go to Settings - Admin Settings - Selecte Database on the top navigation window
+-![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/2b53c6f1-977a-4d55-bc42-4c359b2fb8fd)
+- Select the vRX-Reports database
+- Change the following settings
+  - Database Name: Your dashboard name
+  - Username: Database user created earlier
+  - Passowrd: Database password created earlier
+- Save Changes
 
 ## Portainer CE
 https://docs.portainer.io/start/install-ce
