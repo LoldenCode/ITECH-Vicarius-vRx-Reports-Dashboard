@@ -86,7 +86,7 @@ sudo chmod +x redeployDocker.sh
 sudo ./redeployDocker.sh
 ```
 
-
+*Running the redeployDocker.sh script will overwrite any existing application database. To update the docker image and keep the database intact use updateDocker.sh
 
 
 ## Method 2: Github Cloning the Repository
