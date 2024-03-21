@@ -76,7 +76,7 @@ sudo chmod +x redeployDocker.sh
 sudo ./redeployDocker.sh
 ```
 
-*Running the redeployDocker.sh script will overwrite any existing application database. To update the docker image and keep the database intact use updateDocker.sh
+* Running the redeployDocker.sh script will overwrite any existing application database. To update the docker image and keep the database intact use updateDocker.sh
 
 
 # Confrim the Deployment
@@ -103,7 +103,7 @@ Metabase is an open-source business intelligence platform. You can use Metabase 
 * The initial run can take several hours depending on the size of your data.
 * A progress bar is planned 
 
-
+### Install Metabase
 
 To install Metabase run the metabaseInstall.sh script.
 ```bash
@@ -124,7 +124,7 @@ sudo docker ps
  ```
 - ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/4f523aa8-828c-44e9-8c4e-db58f50f8eaf)
 
-##Configure Metabase
+### Configure Metabase
 Navigate to Metabase installation in a web browser 
 - > http://your_host:4000
 
