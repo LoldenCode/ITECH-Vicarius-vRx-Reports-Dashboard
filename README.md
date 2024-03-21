@@ -170,8 +170,8 @@ Metabase is an open-source business intelligence platform. You can use Metabase 
 
 To install Metabase run the metabaseInstall.sh script.
 ```bash
-sudo chmod +x metabaseInstall.sh
-sudo ./metabaseInstall.sh
+sudo chmod +x optional-metabaseInstall.sh
+sudo ./optional-metabaseInstall.sh
  ```
 ## Portainer CE
 https://docs.portainer.io/start/install-ce
