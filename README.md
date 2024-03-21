@@ -17,7 +17,7 @@ Example: organization in https://organization.vicarius.cloud/
 
 ### Download and unzip the file
 Download the package to the asset that will host the docker containers
-vRxReportsDashboard.tar (https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/releases/download/v1.1/vicarius-vrx-reports.tar.gz)
+vRxReportsDashboard.tar.gz https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/archive/refs/tags/v3.3.tar.gz
 
 Newest Version
 ```bash
@@ -70,8 +70,6 @@ Specify Which Optional Tools you would like to be installed.
 - ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/16fdd3b2-3172-4ca6-8163-f957c86d8106)
 
 
-
-
 ### Bulid and push Docker images to Registry 
 Deploy the Docker stack using the buildPushDocker.sh script:
 ```bash
@@ -88,65 +86,6 @@ sudo ./redeployDocker.sh
 
 *Running the redeployDocker.sh script will overwrite any existing application database. To update the docker image and keep the database intact use updateDocker.sh
 
-
-## Method 2: Github Cloning the Repository
-
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard.git
-cd Vicarius-vRx-Reports-Dashboard
-```
-
-## Install Docker and Initialize docker swarm and docker registry
-
-Install the Docker stack using the installDocker.sh script:
-
-```bash
-chmod +x installDocker.sh
-./installDocker.sh
-```
-
-
-# Initialize Docker Container Configuration 
-
-### Review the following KB article to create a new API Key from your Vrx Dashboard
-https://customer-portal.vicarius.io/getting-started-with-vrx-rest-api
-
-### Your dashboard_id corresponds to the url you use to login to your dashboard
-Example: organization in https://organization.vicarius.cloud/
-
-
-### Build images and push to registry
-
-```bash
-chmod +x initDocker.sh
-./initDocker.sh
-```
-*In this step it will be required dashboard_id, api_key, postgres_user, postgres_password*
-
-
-### Init the Docker Stack Configuration
-
-Deploy the Docker stack using the buildPushDocker.sh script:
-
-```bash
-chmod +x buildPushDocker.sh
-./buildPushDocker.sh
-```
-
-### Deploying the Docker Stack
-
-Deploy the Docker stack using the redeployDocker.sh script:
-
-```bash
-chmod +x redeployDocker.sh
-./redeployDocker.sh
-```
-
-*Running the redeployDocker.sh script will overwrite any existing application database. To update the docker image and keep the database intact use updateDocker.sh
-
-*Ensure you are in the directory containing the `redeployDocker.sh` script.*
 
 # Confrim the Deployment
 
@@ -170,7 +109,7 @@ Metabase is an open-source business intelligence platform. You can use Metabase 
 
 * It is recommended to let the app complete the initialization and first run before launching metabase. 
 * The initial run can take several hours depending on the size of your data.
-* I plan to add a progress bar for first run
+* A progress bar is planned 
 
 
 
