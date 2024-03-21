@@ -23,20 +23,12 @@ Newest Version
 ```bash
 mkdir vicarius-vrx-reports-dashboard
 cd vicarius-vrx-reports-dashboard
-wget https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/releases/download/v1.1/vicarius-vrx-reports.tar.gz
+wget https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/archive/refs/tags/v3.3.tar.gz
 tar -xvzf vicarius-vrx-reports.tar.gz
 ```
 
 
-Stable Release
-```bash
-mkdir vicarius-vrx-reports-dashboard
-cd vicarius-vrx-reports-dashboard
-wget https://campaign.vicarius.io/hubfs/vrxReports/vicarius-vrx-reports.tar.gz
-tar -xvzf vicarius-vrx-reports.tar.gz
-```
-
-### Install Docker configure the containers
+### Install Docker and configure the containers
 Install the Docker stack using the installDocker.sh script:
 
 ```bash
