@@ -67,7 +67,7 @@ Create the password for the local Database. This user will be used to access the
 Optional Tools:
 Specify Which Optional Tools you would like to be installed. 
 - Metabase: Data Visualization with Template
-![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/16fdd3b2-3172-4ca6-8163-f957c86d8106)
+- ![image](https://github.com/jordan-Vicarius/Vicarius-vRx-Reports-Dashboard/assets/115802071/16fdd3b2-3172-4ca6-8163-f957c86d8106)
 
 
 
